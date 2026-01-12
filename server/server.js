@@ -9,6 +9,7 @@ app.use(cors(
         origin:[
             "http://localhost:5173",
             "http://localhost:5174",
+            "http://31.97.206.124:5173/"
         ],
         methods:["GET","POST","PUT" ,"DELETE"],
         credentials:true
