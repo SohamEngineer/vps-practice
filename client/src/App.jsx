@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState("Loading...");
 
   useEffect(() => {
-  fetch("http://localhost:5000/api/health")
+  fetch("http://31.97.206.124:5000/api/health")
     .then((res) => res.json())
     .then((data) => setMessage(data.status))
     .catch(() => setMessage("Backend not connected"));

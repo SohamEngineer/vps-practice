@@ -5,7 +5,7 @@ services:
     build: ./server
     container_name: backend-api
     ports:
-      - "6000:5000"
+      - "5000:5000"
     restart: unless-stopped
 
   frontend:
